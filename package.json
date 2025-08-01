@@ -1,0 +1,13 @@
+{
+  "name": "redis-test-client",
+  "version": "1.0.0",
+  "description": "Simple Redis test using redis@4 client",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "redis": "^4.6.7"
+  }
+}
