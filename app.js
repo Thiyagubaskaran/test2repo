@@ -16,5 +16,6 @@ await client.connect();
 await client.set('foo', 'bar');
 const result = await client.get('foo');
 console.log(result)  // >>> bar
-
-    
+await client.set('foo2', 'bar2323');
+const result1 = await client.get('foo2');
+console.log(result1)  // >>> bar
