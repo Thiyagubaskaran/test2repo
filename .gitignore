@@ -1,6 +1,6 @@
 # Node modules
 node_modules/
-
+redis-stable/
 # Environment variables (if any)
 .env
 
@@ -17,6 +17,7 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+*.gz
 
 # Optional: output or test result files
 *.log
